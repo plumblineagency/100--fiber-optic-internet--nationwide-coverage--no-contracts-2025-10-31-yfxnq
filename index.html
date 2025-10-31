@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="100% Fiber Optic Internet with Nationwide Coverage. No Contracts. Get 1GB Fiber and receive a Nintendo Switch On Us!">
+    <meta name="keywords" content="fiber optic internet, high speed internet, no contracts, nationwide coverage">
+    <meta name="author" content="Best Internet and TV">
+    <meta property="og:title" content="100% Fiber Optic Internet - Nationwide Coverage, No Contracts">
+    <meta property="og:description" content="Get 1GB Fiber and receive a Nintendo Switch On Us!">
+    <meta property="og:type" content="website">
+    <title>100% Fiber Optic Internet - Nationwide Coverage, No Contracts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+        }
+        
+        .hero-overlay {
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 100%);
+        }
+        
+        .gradient-accent {
+            background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+        }
+        
+        .transition-smooth {
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .transition-smooth-lg {
+            transition: all 0.5s ease-in-out;
+        }
+        
+        .card-hover {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-hover {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        
+        .btn-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+        }
+        
+        .accordion-item {
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .accordion-item.active .accordion-content {
+            max-height: 500px;
+            opacity: 1;
+        }
+        
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        }
+        
+        .mobile-menu {
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .mobile-menu.active {
+            display: block;
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: #1f2937;
+        }
+        
+        .testimonial-star {
+            color: #fbbf24;
+        }
+        
+        .announcement-bar {
+            background: linear-gradient(90deg, #1f2937 0%, #374151 100%);
+        }
+        
+        .nav-link {
+            position: relative;
+            transition: color 0.3s ease-in-out;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #1f2937;
+            transition: width 0.3s ease-in-out;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .cta-button {
+            background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+        
+        .section-heading {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-heading::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, #1f2937 0%, #6b7280 100%);
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Announcement Bar -->
+    <div class="announcement-bar text-white py-3 px-4 text-center text-sm md:text-base">
+        <i class="fas fa-truck mr-2"></i>
+        <span class="font-medium">Fast Nationwide Delivery • 5-Year Price Guarantee • No Hidden Fees</span>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-md transition-smooth">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-wifi text-3xl text-gray-900"></i>
+                    <span class="text-2xl font-bold text-gray-900 hidden sm:inline">FiberNet</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="nav-link text-gray-700 font-medium text-sm lg:text-base">Home</a>
+                    <a href="#features" class="nav-link text-gray-700 font-medium text-sm lg:text-base">Features</a>
+                    <a href="#benefits" class="nav-link text-gray-700 font-medium text-sm lg:text-base">Benefits</a>
+                    <a href="#about" class="nav-link text-gray-700 font-medium text-sm lg:text-base">About</a>
+                    <a href="#testimonials" class="nav-link text-gray-700 font-medium text-sm lg:text-base">Reviews</a>
+                    <a href="#faq" class="nav-link text-gray-700 font-medium text-sm lg:text-base">FAQ</a>
+                    <a href="#contact" class="nav-link text-gray-700 font-medium text-sm lg:text-base">Contact</a>
+                </nav>
+
+                <!-- Right Side Actions -->
+                <div class="flex items-center space-x-4">
+                    <a href="tel:8883224944" class="cta-button hidden sm:inline-block text-white px-6 py-2 rounded-lg font-semibold text-sm btn-hover">
+                        Call Now
+                    </a>
+                    <button class="mobile-menu-button md:hidden text-gray-900 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <div class="mobile-menu hidden md:hidden pb-4 border-t border-gray-200">
+                <a href="#home" class="block py-2 px-4 text-gray-700 font-medium text-sm hover:bg-gray-100 transition-smooth">Home</a>
+                <a href="#features" class="block py-2 px-4 text-gray-700 font-medium text-sm hover:bg-gray-100 transition-smooth">Features</a>
+                <a href="#benefits" class="block py-2 px-4 text-gray-700 font-medium text-sm hover:bg-gray-100 transition-smooth">Benefits</a>
+                <a href="#about" class="block py-2 px-4 text-gray-700 font-medium text-sm hover:bg-gray-100 transition-smooth">About</a>
+                <a href="#testimonials" class="block py-2 px-4 text-gray-700 font-medium text-sm hover:bg-gray-100 transition-smooth">Reviews</a>
+                <a href="#faq" class="block py-2 px-4 text-gray-700 font-medium text-sm hover:bg-gray-100 transition-smooth">FAQ</a>
+                <a href="#contact" class="block py-2 px-4 text-gray-700 font-medium text-sm hover:bg-gray-100 transition-smooth">Contact</a>
+                <a href="tel:8883224944" class="block mt-2 mx-4 cta-button text-white px-6 py-2 rounded-lg font-semibold text-sm text-center btn-hover">
+                    Call Now: 888-322-4944
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen md:h-[600px] bg-cover bg-center flex items-center justify-center overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1504093376055-b3094b674dcb?w=1600&h=900&fit=crop&q=80');">
+        <div class="hero-overlay absolute inset-0"></div>
+        <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20 md:py-0">
+            <div class="mb-6 md:mb-8 animate-fade-in">
+                <span class="inline-block bg-white bg-opacity-20 text-white px-4 py-2 rounded-full text-sm md:text-base font-semibold backdrop-blur-sm mb-6">
+                    <i class="fas fa-star mr-2"></i>Limited Time Offer
+                </span>
+            </div>
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 md:mb-8 leading-tight tracking-tight">
+                100% Fiber Optic Internet, Nationwide Coverage, No Contracts
+            </h1>
+            <p class="text-xl md:text-2xl lg:text-3xl text-white mb-8 md:mb-12 font-light leading-relaxed max-w-3xl mx-auto">
+                Get 1GB Fiber and receive a Nintendo Switch On Us!
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="tel:8883224944" class="cta-button text-white px-8 md:px-10 py-4 md:py-5 rounded-lg font-bold text-base md:text-lg btn-hover inline-flex items-center justify-center">
+                    <i class="fas fa-phone mr-3"></i>Call 888-322-4944
+                </a>
+                <a href="#features" class="bg-white text-gray-900 px-8 md:px-10 py-4 md:py-5 rounded-lg font-bold text-base md:text-lg transition-smooth hover:bg-gray-100 hover:shadow-lg inline-flex items-center justify-center">
+                    Learn More
+                    <i class="fas fa-arrow-down ml-3"></i>
+                </a>
+            </div>
+            <div class="mt-12 md:mt-16 flex justify-center gap-8 md:gap-12 text-white text-sm md:text-base font-medium">
+                <div class="flex items-center">
+                    <i class="fas fa-check-circle mr-2"></i>
+                    <span>No Setup Fees</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-check-circle mr-2"></i>
+                    <span>Free Installation</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-check-circle mr-2"></i>
+                    <span>24/7 Support</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="section-heading text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 inline-block">
+                    Why Choose FiberNet?
+                </h2>
+                <p class="text-gray-600 text-base md:text-lg mt-8 max-w-2xl mx-auto">
+                    Experience the future of internet connectivity with our premium fiber optic services and exclusive rewards.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 lg:gap-8">
+                <!-- Feature 1: Nintendo Switch On Us -->
+                <div class="card-hover bg-white border-2 border-gray-100 rounded-xl p-8 md:p-10">
+                    <div class="mb-6 flex justify-center">
+                        <div class="bg-gradient-to-br from-gray-100 to-gray-200 rounded-full p-6 md:p-8">
+                            <i class="fas fa-gamepad feature-icon"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 text-center mb-4">
+                        Nintendo Switch On Us
+                    </h3>
+                    <p class="text-gray-600 text-center text-sm md:text-base leading-relaxed mb-6">
+                        Get a brand new Nintendo Switch absolutely free with your new fiber internet service. Sign up today and enjoy premium gaming while enjoying premium internet speeds.
+                    </p>
+                    <div class="flex items-center justify-center text-gray-900 font-semibold text-sm md:text-base">
+                        <i class="fas fa-gift mr-2 text-gray-700"></i>
+                        <span>Limited Time Offer</span>
+                    </div>
+                </div>
+
+                <!-- Feature 2: 5-Year Price Guarantee -->
+                <div class="card-hover bg-white border-2 border-gray-100 rounded-xl p-8 md:p-10">
+                    <div class="mb-6 flex justify-center">
+                        <div class="bg-gradient-to-br from-gray-100 to-gray-200 rounded-full p-6 md:p-8">
+                            <i class="fas fa-lock feature-icon"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 text-center mb-4">
+                        5-Year Price Guarantee
+                    </h3>
+                    <p class="text-gray-600 text-center text-sm md:text-base leading-relaxed mb-6">
+                        Your rates are locked in for 5 full years. No surprises, no hidden increases, no contract extensions. Enjoy peace of mind knowing your internet bill stays the same.
+                    </p>
+                    <div class="flex items-center justify-center text-gray-900 font-semibold text-sm md:text-base">
+                        <i class="fas fa-shield-alt mr-2 text-gray-700"></i>
+                        <span>Price Protection</span>
+                    </div>
+                </div>
+
+                <!-- Feature 3: No Contracts -->
+                <div class="card-hover bg-white border-2 border-gray-100 rounded-xl p-8 md:p-10">
+                    <div class="mb-6 flex justify-center">
+                        <div class="bg-gradient-to-br from-gray-100 to-gray-200 rounded-full p-6 md:p-8">
+                            <i class="fas fa-handshake feature-icon"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 text-center mb-4">
+                        No Contracts
+                    </h3>
+                    <p class="text-gray-600 text-center text-sm md:text-base leading-relaxed mb-6">
+                        Complete freedom with zero long-term commitments. Cancel anytime without penalties or early termination fees. We earn your business every single day.
+                    </p>
+                    <div class="flex items-center justify-center text-gray-900 font-semibold text-sm md:text-base">
+                        <i class="fas fa-check-circle mr-2 text-gray-700"></i>
+                        <span>Total Freedom</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 md:mt-16 text-center">
+                <a href="tel:8883224944" class="cta-button text-white px-8 md:px-10 py-4 md:py-5 rounded-lg font-bold text-base md:text-lg btn-hover inline-flex items-center justify-center">
+                    <i class="fas fa-phone mr-3"></i>Claim Your Switch Today
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-20">
+                <h2 class="section-heading text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 inline-block">
+                    Unbeatable Benefits
+                </h2>
+                <p class="text-gray-600 text-base md:text-lg mt-8 max-w-2xl mx-auto">
+                    Discover what makes our fiber optic internet the best choice for your home and business.
+                </p>
+            </div>
+
+            <!-- Benefit 1: 100% Fiber Optic -->
+            <div class="mb-16 md:mb-24 bg-white rounded-2xl overflow-hidden shadow-lg">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-0">
+                    <div class="order-2 md:order-1 flex items-center justify-center p-8 md:p-12 lg:p-16">
+                        <img src="https://images.unsplash.com/photo-1556740714-a8395b3bf30f?w=800&h=600&fit=crop&q=80" alt="100% Fiber Optic Internet" class="w-full h-auto rounded-lg shadow-lg object-cover">
+                    </div>
+                    <div class="order-1 md:order-2 flex items-center p-8 md:p-12 lg:p-16 bg-white">
+                        <div>
+                            <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 md:mb-6">
+                                100% Fiber Optic Technology
+                            </h3>
+                            <p class="text-gray-600 text-base md:text-lg leading-relaxed mb-6">
+                                Experience the fastest, most reliable internet technology available. Our 100% fiber optic network delivers lightning-fast speeds directly to your home with zero copper lines. Enjoy consistent performance, even during peak hours, with speeds up to 1GB per second.
+                            </p>
+                            <ul class="space-y-3 mb-8">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-gray-900 mr-3 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700 text-base">Ultra-fast download speeds up to 1GB/s</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-gray-900 mr-3 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700 text-base">Crystal clear video streaming in 4K Ultra HD</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-gray-900 mr-3 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700 text-base">Perfect for gaming, streaming, and work-from-home</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-gray-900 mr-3 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700 text-base">99.9% network reliability guarantee</span>
+                                </li>
+                            </ul>
+                            <a href="tel:8883224944" class="cta-button text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-bold text-base md:text-lg btn-hover inline-flex items-center">
+                                <i class="fas fa-phone mr-2"></i>Get Started
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefit 2: No Contract -->
+            <div class="mb-16 md:mb-24 bg-gray-50 rounded-2xl overflow-hidden shadow-lg">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-0">
+                    <div class="flex items-center justify-center p-8 md:p-12 lg:p-16">
+                        <img src="https://images.unsplash.com/photo-1502982720700-bfff97f2ecac?w=800&h=600&fit=crop&q=80" alt="No Contract Internet Service" class="w-full h-auto rounded-lg shadow-lg object-cover">
+                    </div>
+                    <div class="flex items-center p-8 md:p-12 lg:p-16 bg-gray-50">
+                        <div>
+                            <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 md:mb-6">
+                                No Contract, Complete Freedom
+                            </h3>
+                            <p class="text-gray-600 text-base md:text-lg leading-relaxed mb-6">
+                                Say goodbye to long-term contracts and hidden fees. We believe in earning your business every single day through superior service and unbeatable value. Cancel anytime without penalties, early termination fees, or complicated procedures.
+                            </p>
+                            <ul class="space-y-3 mb-8">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-gray-900 mr-3 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700 text-base">Cancel anytime, no questions asked</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-gray-900 mr-3 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700 text-base">Zero early termination fees or penalties</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-gray-900 mr-3 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700 text-base">Month-to-month flexibility</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-gray-900 mr-3 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700 text-base">Transparent pricing with no hidden charges</span>
+                                </li>
+                            </ul>
+                            <a href="tel:8883224944" class="cta-button text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-bold text-base md:text-lg btn-hover inline-flex items-center">
+                                <i class="fas fa-phone mr-2"></i>Sign Up Today
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefit 3: Price Locked -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-0">
+                    <div class="order-2 md:order-1 flex items-center justify-center p-8 md:p-12 lg:p-16">
+                        <img src="https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?w=800&h=600&fit=crop&q=80" alt="Price Locked for 5 Years" class="w-full h-auto rounded-lg shadow-lg object-cover">
+                    </div>
+                    <div class="order-1 md:order-2 flex items-center p-8 md:p-12 lg:p-16 bg-white">
+                        <div>
+                            <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 md:mb-6">
+                                Price Locked for 5 Years
+                            </h3>
+                            <p class="text-gray-600 text-base md:text-lg leading-relaxed mb-6">
+                                Never worry about surprise rate increases again. Your monthly rate is guaranteed and locked in for a full 5 years from the date you sign up. Budget with confidence knowing exactly what you'll pay every month, with zero surprises or hidden price hikes.
+                            </p>
+                            <ul class="space-y-3 mb-8">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-gray-900 mr-3 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700 text-base">5-year price protection guarantee</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-gray-900 mr-3 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700 text-base">No rate increases for 60 months</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-gray-900 mr-3 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700 text-base">Predictable monthly billing</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-gray-900 mr-3 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700 text-base">Industry-leading value and savings</span>
+                                </li>
+                            </ul>
+                            <a href="tel:8883224944" class="cta-button text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-bold text-base md:text-lg btn-hover inline-flex items-center">
+                                <i class="fas fa-phone mr-2"></i>Lock In Your Rate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="section-heading text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 inline-block">
+                    About FiberNet
+                </h2>
+                <p class="text-gray-600 text-base md:text-lg mt-8 max-w-2xl mx-auto">
+                    Leading the fiber optic revolution across the nation
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16">
+                <div class="flex flex-col justify-center">
+                    <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4 md:mb-6">
+                        Our Story
+                    </h3>
+                    <p class="text-gray-600 text-base md:text-lg leading-relaxed mb-6">
+                        Founded in 2015, FiberNet was born from a simple vision: to bring world-class fiber optic internet to every corner of America. What started as a small regional provider has grown into one of the nation's most trusted fiber internet companies, serving hundreds of thousands of customers across all 50 states. Our founders recognized that internet connectivity had become essential to modern life, yet many Americans were stuck with outdated cable and DSL technology. We invested heavily in building a next-generation fiber optic infrastructure, partnering with local communities and working tirelessly to expand our network where it was needed most. Today, our commitment to innovation and customer satisfaction remains unwavering.
+                    </p>
+                </div>
+
+                <div class="flex flex-col justify-center">
+                    <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4 md:mb-6">
+                        Our Mission
+                    </h3>
+                    <p class="text-gray-600 text-base md:text-lg leading-relaxed mb-6">
+                        At FiberNet, our mission is simple yet powerful: to democratize access to ultra-fast, reliable internet for everyone. We believe that everyone deserves gigabit-speed connectivity without breaking the bank or being locked into restrictive contracts. Our core values of transparency, reliability, and customer-first service guide every decision we make. We're committed to delivering the fastest speeds, the most affordable prices, and the best customer support in the industry. By eliminating contracts, locking in prices, and rewarding loyalty with exclusive offers like our Nintendo Switch promotion, we're redefining what it means to be an internet service provider. We envision a future where fiber optic internet is the standard everywhere, and we're determined to make that vision a reality, one community at a time.
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-12 md:mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 rounded-xl p-8 text-center card-hover">
+                    <div class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">
+                        500K+
+                    </div>
+                    <p class="text-gray-600 text-base md:text-lg font-medium">
+                        Satisfied Customers
+                    </p>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-8 text-center card-hover">
+                    <div class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">
+                        50+
+                    </div>
+                    <p class="text-gray-600 text-base md:text-lg font-medium">
+                        States Served
+                    </p>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-8 text-center card-hover">
+                    <div class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">
+                        99.9%
+                    </div>
+                    <p class="text-gray-600 text-base md:text-lg font-medium">
+                        Uptime Guarantee
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="section-heading text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 inline-block">
+                    What Our Customers Say
+                </h2>
+                <p class="text-gray-600 text-base md:text-lg mt-8 max-w-2xl mx-auto">
+                    Join thousands of satisfied customers experiencing the FiberNet difference
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 lg:gap-8">
+                <!-- Testimonial 1 -->
+                <div class="card-hover bg-white rounded-xl p-8 md:p-10 shadow-md">
+                    <div class="flex items-start mb-4">
+                        <div class="flex-1">
+                            <h4 class="text-lg md:text-xl font-bold text-gray-900">
+                                Sarah Mitchell
+                            </h4>
+                            <p class="text-gray-600 text-sm md:text-base">
+                                Freelance Designer, Austin TX
+                            </p>
+                        </div>
+                        <div class="flex ml-4">
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-base leading-relaxed mb-4">
+                        "I switched from my old cable provider to FiberNet and immediately noticed the difference. The 1GB speeds are incredible – file uploads that used to take minutes now take seconds. Plus, getting the Nintendo Switch as a bonus was amazing! The no-contract policy gave me peace of mind, and the price guarantee means I can actually budget my monthly expenses. Customer service has been exceptional whenever I've had questions."
+                    </p>
+                    <div class="flex items-center text-sm text-gray-500">
+                        <i class="fas fa-check-circle mr-2"></i>
+                        <span>Verified Customer</span>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="card-hover bg-white rounded-xl p-8 md:p-10 shadow-md">
+                    <div class="flex items-start mb-4">
+                        <div class="flex-1">
+                            <h4 class="text-lg md:text-xl font-bold text-gray-900">
+                                James Rodriguez
+                            </h4>
+                            <p class="text-gray-600 text-sm md:text-base">
+                                Small Business Owner, Denver CO
+                            </p>
+                        </div>
+                        <div class="flex ml-4">
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-base leading-relaxed mb-4">
+                        "As someone who runs a home-based business with video conferencing and large file transfers, FiberNet has been a game-changer. The reliability is outstanding – I haven't experienced a single outage in the 18 months I've been a customer. The 5-year price lock is perfect for business planning, and the fact that there are no contracts means I'm free to upgrade or make changes whenever I want. Highly recommend for anyone serious about internet quality."
+                    </p>
+                    <div class="flex items-center text-sm text-gray-500">
+                        <i class="fas fa-check-circle mr-2"></i>
+                        <span>Verified Customer</span>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="card-hover bg-white rounded-xl p-8 md:p-10 shadow-md">
+                    <div class="flex items-start mb-4">
+                        <div class="flex-1">
+                            <h4 class="text-lg md:text-xl font-bold text-gray-900">
+                                Emily Chen
+                            </h4>
+                            <p class="text-gray-600 text-sm md:text-base">
+                                College Student, Seattle WA
+                            </p>
+                        </div>
+                        <div class="flex ml-4">
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-base leading-relaxed mb-4">
+                        "Getting the Nintendo Switch as a bonus was incredible! But honestly, the best part about FiberNet is the actual service. My dorm room gets blazing fast speeds, and I can stream 4K videos, game online, and do schoolwork all at the same time without any lag. The customer support team helped me get set up in minutes. For the price and the quality, FiberNet is unbeatable. My whole friend group has switched over now!"
+                    </p>
+                    <div class="flex items-center text-sm text-gray-500">
+                        <i class="fas fa-check-circle mr-2"></i>
+                        <span>Verified Customer</span>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="card-hover bg-white rounded-xl p-8 md:p-10 shadow-md">
+                    <div class="flex items-start mb-4">
+                        <div class="flex-1">
+                            <h4 class="text-lg md:text-xl font-bold text-gray-900">
+                                Michael Thompson
+                            </h4>
+                            <p class="text-gray-600 text-sm md:text-base">
+                                Family of 4, Phoenix AZ
+                            </p>
+                        </div>
+                        <div class="flex ml-4">
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                            <i class="fas fa-star testimonial-star text-sm"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-base leading-relaxed mb-4">
+                        "With four people in our house all using the internet simultaneously – work from home, online school, streaming, and gaming – we needed something that could handle the load. FiberNet delivers. The speeds are consistent, even during peak hours. No more buffering or dropped connections. The Nintendo Switch bonus was perfect for our kids, and knowing our bill won't increase for 5 years is a huge relief. Best decision we've made for our home!"
+                    </p>
+                    <div class="flex items-center text-sm text-gray-500">
+                        <i class="fas fa-check-circle mr-2"></i>
+                        <span>Verified Customer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 md:mt-16 text-center">
+                <p class="text-gray-600 text-base md:text-lg mb-6">
+                    Join our community of satisfied customers today
+                </p>
+                <a href="tel:8883224944" class="cta-button text-white px-8 md:px-10 py-4 md:py-5 rounded-lg font-bold text-base md:text-lg btn-hover inline-flex items-center">
+                    <i class="fas fa-phone mr-3"></i>Call 888-322-4944
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 md:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="section-heading text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 inline-block">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-gray-600 text-base md:text-lg mt-8 max-w-2xl mx-auto">
+                    Everything you need to know about our fiber optic internet service
+                </p>
+            </div>
+
+            <div class="space-y-4 md:space-y-6">
+                <!-- FAQ 1 -->
+                <div class="accordion-item bg-white border-2 border-gray-100 rounded-xl overflow-hidden transition-smooth">
+                    <button class="accordion-trigger w-full px-6 md:px-8 py-5 md:py-6 flex items-center justify-between hover:bg-gray-50 transition-smooth text-left">
+                        <span class="text-lg md:text-xl font-bold text-gray-900 pr-4">
+                            What speeds can I expect with FiberNet's 1GB fiber service?
+                        </span>
+                        <i class="fas fa-chevron-down text-gray-600 flex-shrink-0"></i>
+                    </button>
+                    <div class="accordion-content px-6 md:px-8 pb-0 md:pb-0">
+                        <p class="text-gray-600 text-base md:text-lg leading-relaxed pb-6 md:pb-6">
+                            With our 1GB fiber optic service, you can expect download speeds up to 1,000 Mbps (1 Gigabit per second) and upload speeds up to 1,000 Mbps. These speeds are ideal for multiple simultaneous activities including 4K video streaming, online gaming, video conferencing, and large file transfers. Actual speeds may vary based on your equipment and network conditions, but we guarantee a minimum of 940 Mbps download speeds as part of our service agreement. Our network is engineered to deliver consistent, reliable performance 24/7.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="accordion-item bg-white border-2 border-gray-100 rounded-xl overflow-hidden transition-smooth">
+                    <button class="accordion-trigger w-full px-6 md:px-8 py-5 md:py-6 flex items-center justify-between hover:bg-gray-50 transition-smooth text-left">
+                        <span class="text-lg md:text-xl font-bold text-gray-900 pr-4">
+                            Is the Nintendo Switch offer available in my area?
+                        </span>
+                        <i class="fas fa-chevron-down text-gray-600 flex-shrink-0"></i>
+                    </button>
+                    <div class="accordion-content px-6 md:px-8 pb-0 md:pb-0">
+                        <p class="text-gray-600 text-base md:text-lg leading-relaxed pb-6 md:pb-6">
+                            Yes! Our Nintendo Switch promotion is available nationwide for all new customers signing up for our 1GB fiber service. This is a limited-time offer that includes a brand new Nintendo Switch console (your choice of model) absolutely free with your service activation. The console ships directly to your home within 7-10 business days after your service is activated. To check service availability in your specific area and claim your Nintendo Switch, simply call our team at 888-322-4944 or provide your address on our website. Our representatives will confirm availability and get you started immediately.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="accordion-item bg-white border-2 border-gray-100 rounded-xl overflow-hidden transition-smooth">
+                    <button class="accordion-trigger w-full px-6 md:px-8 py-5 md:py-6 flex items-center justify-between hover:bg-gray-50 transition-smooth text-left">
+                        <span class="text-lg md:text-xl font-bold text-gray-900 pr-4">
+                            How does the 5-year price guarantee work?
+                        </span>
+                        <i class="fas fa-chevron-down text-gray-600 flex-shrink-0"></i>
+                    </button>
+                    <div class="accordion-content px-6 md:px-8 pb-0 md:pb-0">
+                        <p class="text-gray-600 text-base md:text-lg leading-relaxed pb-6 md:pb-6">
+                            Our 5-year price guarantee means that the monthly rate you pay when you sign up is locked in for exactly 60 months from your service activation date. During this entire period, your rate will never increase, regardless of market conditions or promotional changes. This applies to your base internet service fee and is one of the most comprehensive price protection guarantees in the industry. After the initial 5-year period, you'll be notified of any rate adjustments, but you'll have the option to cancel without penalties or continue with the new rate. This guarantee gives you complete peace of mind for budget planning and eliminates any surprise bills.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="accordion-item bg-white border-2 border-gray-100 rounded-xl overflow-hidden transition-smooth">
+                    <button class="accordion-trigger w-full px-6 md:px-8 py-5 md:py-6 flex items-center justify-between hover:bg-gray-50 transition-smooth text-left">
+                        <span class="text-lg md:text-xl font-bold text-gray-900 pr-4">
+                            Can I cancel my service anytime without penalties?
+                        </span>
+                        <i class="fas fa-chevron-down text-gray-600 flex-shrink-0"></i>
+                    </button>
+                    <div class="accordion-content px-6 md:px-8 pb-0 md:pb-0">
+                        <p class="text-gray-600 text-base md:text-lg leading-relaxed pb-6 md:pb-6">
+                            Absolutely! FiberNet has zero long-term contracts, which means you can cancel your service at any time without early termination fees, penalties, or complicated procedures. We believe in earning your business every single day through superior service and value, rather than locking you into restrictive agreements. If you decide to cancel, simply contact our customer service team and we'll process your cancellation within one business day. You're only responsible for service through your final billing date. This commitment to no contracts is one of the key ways we differentiate ourselves from traditional internet service providers and show our confidence in our service quality.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 md:mt-16 bg-gray-50 rounded-xl p-8 md:p-12 text-center">
+                <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-3 md:mb-4">
+                    Still have questions?
+                </h3>
+                <p class="text-gray-600 text-base md:text-lg mb-6 md:mb-8">
+                    Our customer support team is available 24/7 to help with any questions or concerns.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="tel:8883224944" class="cta-button text-white px-8 md:px-10 py-4 md:py-5 rounded-lg font-bold text-base md:text-lg btn-hover inline-flex items-center justify-center">
+                        <i class="fas fa-phone mr-3"></i>Call 888-322-4944
+                    </a>
+                    <a href="mailto:info@bestinternetandtv.com" class="bg-white text-gray-900 border-2 border-gray-900 px-8 md:px-10 py-4 md:py-5 rounded-lg font-bold text-base md:text-lg transition-smooth hover:bg-gray-900 hover:text-white inline-flex items-center justify-center">
+                        <i class="fas fa-envelope mr-3"></i>Email Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="relative py-16 md:py-24 bg-cover bg-center flex items-center justify-center overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1556740714-a8395b3bf30f?w=1600&h=900&fit=crop&q=80');">
+        <div class="absolute inset-0 bg-gradient-to-r from-gray-900 to-gray-800 opacity-75"></div>
+        <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 md:mb-6">
+                Ready to Experience the FiberNet Difference?
+            </h2>
+            <p class="text-lg md:text-xl text-gray-100 mb-8 md:mb-12 max-w-2xl mx-auto leading-relaxed">
+                Join hundreds of thousands of satisfied customers enjoying lightning-fast fiber optic internet with no contracts and locked-in prices. Get your Nintendo Switch today!
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="tel:8883224944" class="cta-button text-white px-8 md:px-10 py-4 md:py-5 rounded-lg font-bold text-base md:text-lg btn-hover inline-flex items-center justify-center bg-white text-gray-900 hover:bg-gray-100">
+                    <i class="fas fa-phone mr-3"></i>Call Now: 888-322-4944
+                </a>
+                <a href="mailto:info@bestinternetandtv.com" class="bg-transparent border-2 border-white text-white px-8 md:px-10 py-4 md:py-5 rounded-lg font-bold text-base md:text-lg transition-smooth hover:bg-white hover:text-gray-900 inline-flex items-center justify-center">
+                    <i class="fas fa-envelope mr-3"></i>Email Info@BestInternetAndTV.com
+                </a>
+            </div>
+            <p class="text-gray-200 text-sm md:text-base mt-8 md:mt-10">
+                <i class="fas fa-check-circle mr-2"></i>
+                <span class="font-semibold">Limited time offer • Free installation • 24/7 customer support</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-12 md:mb-16">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="fas fa-wifi text-2xl text-white"></i>
+                        <span class="text-xl font-bold text-white">FiberNet</span>
+                    </div>
+                    <p class="text-gray-400 text-sm md:text-base leading-relaxed mb-4">
+                        Delivering ultra-fast fiber optic internet to homes and businesses across the nation with no contracts and locked-in prices.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-smooth text-lg">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-smooth text-lg">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-smooth text-lg">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-smooth text-lg">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4 md:mb-6">Quick Links</h4>
+                    <ul class="space-y-2 md:space-y-3">
+                        <li>
+                            <a href="#home" class="text-gray-400 hover:text-white transition-smooth text-sm md:text-base">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#features" class="text-gray-400 hover:text-white transition-smooth text-sm md:text-base">
+                                Features
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#benefits" class="text-gray-400 hover:text-white transition-smooth text-sm md:text-base">
+                                Benefits
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about" class="text-gray-400 hover:text-white transition-smooth text-sm md:text-base">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#testimonials" class="text-gray-400 hover:text-white transition-smooth text-sm md:text-base">
+                                Testimonials
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4 md:mb-6">Support</h4>
+                    <ul class="space-y-2 md:space-y-3">
+                        <li>
+                            <a href="#faq" class="text-gray-400 hover:text-white transition-smooth text-sm md:text-base">
+                                FAQ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="privacy.html" class="text-gray-400 hover:text-white transition-smooth text-sm md:text-base">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="terms.html" class="text-gray-400 hover:text-white transition-smooth text-sm md:text-base">
+                                Terms of Service
+                            </a>
+                        </li>
+                        <li>
+                            <a href="blog.html" class="text-gray-400 hover:text-white transition-smooth text-sm md:text-base">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="text-gray-400 hover:text-white transition-smooth text-sm md:text-base">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4 md:mb-6">Contact</h4>
+                    <div class="space-y-3 md:space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-phone text-white mr-3 mt-1 flex-shrink-0"></i>
+                            <div>
+                                <p class="text-gray-400 text-xs md:text-sm font-semibold">Phone</p>
+                                <a href="tel:8883224944" class="text-white hover:text-gray-300 transition-smooth text-sm md:text-base font-medium">
+                                    888-322-4944
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-envelope text-white mr-3 mt-1 flex-shrink-0"></i>
+                            <div>
+                                <p class="text-gray-400 text-xs md:text-sm font-semibold">Email</p>
+                                <a href="mailto:info@bestinternetandtv.com" class="text-white hover:text-gray-300 transition-smooth text-sm md:text-base font-medium">
+                                    info@bestinternetandtv.com
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-clock text-white mr-3 mt-1 flex-shrink-0"></i>
+                            <div>
+                                <p class="text-gray-400 text-xs md:text-sm font-semibold">Hours</p>
+                                <p class="text-white text-sm md:text-base">
+                                    24/7 Available
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="border-t border-gray-800 pt-8 md:pt-12">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                    <div>
+                        <h4 class="text-white font-bold text-base md:text-lg mb-3 md:mb-4">Service Policies</h4>
+                        <div class="space-y-2 md:space-y-3">
+                            <p class="text-gray-400 text-sm md:text-base">
+                                <i class="fas fa-truck text-white mr-2"></i>
+                                <span class="font-semibold">Fast Nationwide Shipping:</span> 5 days delivery
+                            </p>
+                            <p class="text-gray-400 text-sm md:text-base">
+                                <i class="fas fa-undo text-white mr-2"></i>
+                                <span class="font-semibold">100% Satisfaction Guarantee:</span> Full refund upon return
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-white font-bold text-base md:text-lg mb-3 md:mb-4">Why Choose FiberNet?</h4>
+                        <div class="space-y-2 md:space-y-3 text-sm md:text-base text-gray-400">
+                            <p>
+                                <i class="fas fa-check text-white mr-2"></i>
+                                100% Fiber Optic Technology
+                            </p>
+                            <p>
+                                <i class="fas fa-check text-white mr-2"></i>
+                                5-Year Price Guarantee
+                            </p>
+                            <p>
+                                <i class="fas fa-check text-white mr-2"></i>
+                                No Contracts Ever
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-t border-gray-800 pt-8 md:pt-10 text-center md:text-left">
+                    <p class="text-gray-400 text-sm md:text-base">
+                        &copy; <span id="year">2024</span> FiberNet. All rights reserved. | 
+                        <a href="privacy.html" class="hover:text-white transition-smooth">Privacy Policy</a> | 
+                        <a href="terms.html" class="hover:text-white transition-smooth">Terms of Service</a> | 
+                        <a href="blog.html" class="hover:text-white transition-smooth">Blog</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuButton = document.querySelector('.mobile-menu-button');
+        const mobileMenu = document.querySelector('.mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            mobileMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = document.querySelectorAll('.mobile-menu a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+        // Accordion Functionality
+        const accordionTriggers = document.querySelectorAll('.accordion-trigger');
+
+        accordionTriggers.forEach(trigger => {
+            trigger.addEventListener('click', () => {
+                const accordionItem = trigger.closest('.accordion-item');
+                const isActive = accordionItem.classList.contains('active');
+
+                // Close all accordion items
+                document.querySelectorAll('.accordion-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+
+                // Open the clicked item if it wasn't already open
+                if (!isActive) {
+                    accordionItem.classList.add('active');
+                }
+
+                // Rotate chevron icon
+                const chevron = trigger.querySelector('.fa-chevron-down');
+                if (chevron) {
+                    chevron.style.transform = accordionItem.classList.contains('active') ? 'rotate(180deg)' : 'rotate(0deg)';
+                    chevron.style.transition = 'transform 0.3s ease-in-out';
+                }
+            });
+        });
+
+        // Update year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Smooth scroll behavior for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    const headerHeight = document.querySelector('header').offsetHeight;
+                    const targetPosition = target.offsetTop - headerHeight;
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Add fade-in animation on page load
+        window.addEventListener('load', () => {
+            document.body.style.opacity = '1';
+        });
+    </script>
+</body>
+</html>
